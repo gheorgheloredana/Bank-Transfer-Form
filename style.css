@@ -1,0 +1,222 @@
+
+
+#titlu{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+#subliniere{
+    height: 2px;
+    width:325px;
+    background-color:rgb(35, 131, 255);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;      
+}
+
+.formular{
+    display: grid;
+    margin: auto;
+    height: 650px;
+    width: 500px;
+    border: 2px solid rgb(35, 131, 255) ;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#utilizator{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 35px;
+    row-gap: 5px;
+}
+
+.butoane{ 
+    color: rgb(35, 131, 255);
+    border-radius: 5px;     
+    width: 250px;
+    height: 45px;
+    border-color: rgb(35, 131, 255);
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.butoane:hover{
+    background-color: rgb(35, 131, 255);
+    color: #ffffff;
+}
+
+.input{
+      width:200px;     
+    height: 25px;
+}
+
+hr{
+    height: 2px;
+    width:460px;
+    background-color:rgb(35, 131, 255);
+}
+ 
+
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+
+#titlu{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+#subliniere{
+    width:300px;
+}
+
+body {
+margin-top: 27px; 
+font-size: 16px;     
+}
+
+.formular{
+    height: 610px;
+    width: 490px;
+}
+
+#utilizator{
+    margin-top: 32px;
+    row-gap: 5px;
+}
+
+.butoane{ 
+    border-radius: 5px;     
+    width: 250px;
+    font-size: 14px;
+    height: 42px;
+}
+
+
+.input{
+      width:190px;     
+    height: 23px;
+}
+
+hr{
+    width:450px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+
+   
+    #titlu{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    
+    #subliniere{
+        width:270px;
+    }
+    
+    body {
+    margin-top: 25px; 
+    font-size: 14px;     
+    }
+    
+    .formular{
+        height: 570px;
+        width: 450px;
+    }
+    #utilizator{
+        margin-top: 30px;
+        row-gap: 4px;
+    }
+    
+    .butoane{ 
+        border-radius: 4px;     
+        width: 210px;
+        font-size: 14px;
+        height: 42px;
+    }
+    
+    .input{
+          width:170px;     
+        height: 21px;
+    }
+    
+    hr{
+        width:390px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+  
+    #titlu{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+    
+    #subliniere{
+        width:215px;
+    }
+    
+    body {
+    margin-top: 25px; 
+    font-size: 13px; 
+    margin-top: 3px;   
+    }
+    
+    .formular{
+        height: 700px;
+        width: 300px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        margin: auto;
+    }
+    
+    #utilizator{
+        margin-top: 30px;
+        display: inline-grid;
+        grid-template-columns: auto;
+        margin-top: 1px;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+        row-gap: 0px; 
+    }
+    
+    .butoane{ 
+        border-radius: 4px;     
+        width: 180px;
+        font-size: 12px;
+        height: 38px;
+    }
+    
+    .input{
+        width:170px;     
+        height: 20px;
+    }
+    
+    hr{
+        width:270px;
+    }
+}
